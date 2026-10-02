@@ -1,16 +1,18 @@
 {
   "name": "meu-projeto-node",
   "version": "1.0.0",
-  "description": "",
-  "main": "index.js",
+  "description": "DOJO 2 - Atividade avaliativa NodeJS",
+  "main": "app.js",
   "scripts": {
+    "start": "node app.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [],
-  "author": "",
+  "author": "Daniel",
   "license": "ISC",
   "type": "commonjs",
   "dependencies": {
+    "express": "^5.1.0",
     "lodash": "^4.18.1"
   }
 }
